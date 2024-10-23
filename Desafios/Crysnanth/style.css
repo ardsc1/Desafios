@@ -23,8 +23,8 @@ main{
    
 div#informaçao{
   padding: 20px;
-  margin-left: 24%;
-  margin-top: -26%
+  margin-left: 15%;
+  margin-top: -16%;
 }
 h2#inf2{
   background-color: yellow;
@@ -41,9 +41,9 @@ ul#inf3{
   font-size: 12px;
 }
 div#eu2{
-  padding-top: 50px;
-  padding-right: 35%;
-  padding-left: 5%;
+  padding-top: 60px;
+  padding-right: 30%;
+  padding-left: 10px;
 }
 div#links >a {
   text-decoration: none;
@@ -56,7 +56,7 @@ div#links >a {
 div#links{
   display: flex;
   gap: 30px;
-  padding-left: 20px;
+  padding-left: 0px;
   padding-top: 20px;
 }
 div#projetos{
