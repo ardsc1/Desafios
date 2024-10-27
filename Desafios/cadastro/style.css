@@ -13,19 +13,18 @@ body{
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(253, 253, 253);
 }
 body::before{
  content:"" ; 
  position: absolute;
- width: 100vw;
- height: 100vh;
- background: url("https://codetheworld.io/wp-content/uploads/2024/09/hero-bg.jpg"), #000;
  background-position: center center;
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
  z-index: -1;
+ background: url("https://codetheworld.io/wp-content/uploads/2024/09/hero-bg.jpg"), #000;
+ 
 }
 
 main{
@@ -57,8 +56,8 @@ h2{
   left: 10%;
   transform: translate(-50%);
   font-size: 60px;
-  pointer-events: none;
   transition: 0.15s ease;
+  
 }
 .cadastro input{
   width: 100%;
@@ -79,4 +78,7 @@ div.entrar > input{
   padding: 5px;
   width: 100px;
   margin-top: 10px;
+  color: white;
+  background: transparent;
+  border: 1px white ; 
 }

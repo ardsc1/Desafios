@@ -12,17 +12,20 @@
      <h2>Welcome</h2>
      <div class="cadastro">
         <p><label for="icadastro">Email: </label>
-          <input type="text" id="icadastro"></p>
+          <input type="email" name="email" id="icadastro" required></p>
      </div>
      <div class="cadastro">
-      <p><label for="isenha">Senha:</label> <input type="password" id="isenha"></p>
+      <p>
+        <label for="isenha">Senha:</label> 
+        <input type="password" id="isenha" max="14" min="5" required>
+      </p>
      </div>     
      <div class="entrar">
-      <input type="submit" value="Entrar">
+      <input type="submit" value="Entrar" >
      </div>   
     <div id="registro">
       <p>Não tem uma conta?
-        <a href="#" style="text-decoration: none; color: rgb(72, 214, 115);">Registre</a>
+        <a href="registro.html" style="text-decoration: none; color: rgb(72, 214, 115);">Registre</a>
       </p>
       
     </div>
